@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px 0;
+}
+
+.task-text {
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+.delete-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  min-width: 70px;
+}
+
+.delete-button:hover {
+  background-color: #2563eb;
+}
+
+.add-task-button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.tasks-list {
+  list-style-type: none;
+  padding: 0;
+  clear: both;
+}
